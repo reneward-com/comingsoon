@@ -33,10 +33,8 @@ body {
     padding: 20px;
 }
 
-/* Style the text color for the "What to Expect" section */
-.mobile-frame .features {
-    color: #fff; /* Set the text color to white or any color that contrasts with the dark background */
-}
+/* Style your content as needed within the frame */
+/* Add your patterned background and other styles here */
 
 /* Style the logo and center it */
 .mobile-frame header .logo {
@@ -56,6 +54,19 @@ body {
 /* Remove text behind the picture */
 .mobile-frame header .logo img[src="https://picsum.photos/200/100"] {
     filter: brightness(0); /* Make the text behind the picture invisible */
+}
+
+/* Style the "Back" button */
+.mobile-frame header .back-button {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.mobile-frame header .back-button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* Responsive styles */
