@@ -87,7 +87,7 @@ body {
 
 /* Example background pattern (replace with your pattern): */
 .mobile-frame header {
-    background-image: url('https://via.placeholder.com/800x600?text=Patterned+Background');
+    background-image: url('https://via.placeholder.com/800x600/9988dd/ffffff?text=Patterned+Background'); /* Placeholder patterned background */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
