@@ -24,6 +24,7 @@ body {
     width: 360px; /* Adjust the width to match the mobile phone frame */
     max-width: 100%;
     position: relative;
+    color: white; /* Set text color to white */
 }
 
 /* Center the content within the frame */
@@ -49,6 +50,11 @@ body {
     display: block; /* Center the image horizontally */
     margin: 0 auto; /* Center the image horizontally */
     border-radius: 10px; /* Add rounded corners to the logo */
+}
+
+/* Style the text in the main box */
+.mobile-frame main {
+    color: #000; /* Set text color to black */
 }
 
 /* Remove text behind the picture */
@@ -85,7 +91,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: white; /* Adjust text color for readability */
 }
 
 /* Example text style within the frame: */
