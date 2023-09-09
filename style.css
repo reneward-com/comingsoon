@@ -36,6 +36,11 @@ body {
 /* Style your content as needed within the frame */
 /* Add your patterned background and other styles here */
 
+/* Style the text color for the "What to Expect" section */
+.mobile-frame .features {
+    color: #fff; /* Set the text color to white or any color that contrasts with the dark background */
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .mobile-frame {
