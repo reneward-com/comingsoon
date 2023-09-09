@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #007BFF;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.subscribe {
+    margin-top: 40px;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    li {
+        font-size: 16px;
+    }
+}
