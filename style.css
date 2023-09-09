@@ -33,12 +33,29 @@ body {
     padding: 20px;
 }
 
-/* Style your content as needed within the frame */
-/* Add your patterned background and other styles here */
-
 /* Style the text color for the "What to Expect" section */
 .mobile-frame .features {
     color: #fff; /* Set the text color to white or any color that contrasts with the dark background */
+}
+
+/* Style the logo and center it */
+.mobile-frame header .logo {
+    text-align: center;
+    margin-bottom: 20px; /* Add some spacing between the logo and the main heading */
+}
+
+/* Style the logo image and add rounded corners */
+.mobile-frame header .logo .logo-image {
+    width: 100%; /* Resize the logo to match the width of the main heading */
+    max-width: 250px; /* Adjust the maximum width as needed */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10px; /* Add rounded corners to the logo */
+}
+
+/* Remove text behind the picture */
+.mobile-frame header .logo img[src="https://picsum.photos/200/100"] {
+    filter: brightness(0); /* Make the text behind the picture invisible */
 }
 
 /* Responsive styles */
