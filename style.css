@@ -54,7 +54,8 @@ body {
 
 /* Style the text in the main box */
 .mobile-frame main {
-    color: #000; /* Set text color to black */
+    color: white; /* Set text color to white */
+    font-size: 16px; /* Set a consistent font size */
 }
 
 /* Remove text behind the picture */
@@ -69,10 +70,10 @@ body {
 }
 
 .mobile-frame header .back-button a {
-    color: #fff;
+    color: white; /* Set text color to white */
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16px; /* Set a consistent font size */
 }
 
 /* Responsive styles */
